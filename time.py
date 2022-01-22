@@ -24,7 +24,7 @@ for page in range(38258,35356,-1):
   pttpage = rs.get("https://www.ptt.cc/bbs/Gossiping/index"+str(page)+'.html',verify=False)
   main = BeautifulSoup(pttpage.text,"html.parser")
 
-  # 抓取每一頁文章標題及網址並用 OpenArticle() 抓取評論的數據
+  # 抓取每一頁文章標題及網址並用 OpenArticle() 抓取日期的數據
   for t,d in zip(main.select('.title'),main.select('.date')):
     date = d.text
     title = t.text
