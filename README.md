@@ -10,3 +10,5 @@
 (做圖) makeplt.py
 
 噓的程式碼:likeornot.py
+
+報告連結:https://drive.google.com/file/d/1sL_WYoY268c2Tp_twt6VOb23oDwoiAR-/view?usp=sharing
